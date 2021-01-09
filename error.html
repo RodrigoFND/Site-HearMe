@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Hear Me</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="./iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body onscroll="bgnav()">
+    <nav class="navheader navbar navbar-expand-md navbar-dark sticky-top " >
+        <div class="container-fluid ">
+            <div class="navbar-header ">
+                <a class="navbar-brand" href="index.html"class=""><img src="imagens/logo.png" style="width: 150px;"></a>
+            </div>          
+            <button class="navbar-toggler btn border-light" data-toggle="collapse" data-target="#navhead" type=""><span class="navbar-toggler-icon "></span></button>
+            <div class=" collapse navbar-collapse" id="navhead"> <!--DropDownMenu-->
+                <ul class="nav ml-auto ">
+                    <li class="nav-item "><a href="#" class="nav-link ">Home</a></li>
+                    <li class="nav-item "><a href="#" class="nav-link ">Loguin</a></li>
+                    <li class="nav-item "><a href="#" class="nav-link">Register</a></li>
+                    <li class="nav-item "><a href="#" class="nav-link">About</a></li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Observacoooooooooooooooesssss 
+        Arrumar Alt de todas as imagens
+        Criar sliders para tela < xs
+    
+    -->
+
+    <section class="section-carousel"> <!-- Section Carousel-->
+        <div class="container ">
+            <div class="row"> <!--Row Carousel-->
+                <div class="col-sm-12">
+            
+                    <div id="car" class="carousel slide d-flex align-items-center" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                        <li data-target="#car" data-slide-to="0" class="active"></li>
+                        <li data-target="#car" data-slide-to="1"></li>
+                        <li data-target="#car" data-slide-to="2"></li>
+                        </ul>
+                        
+                        <!-- The slideshow -->
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item active ">
+                                <h1>Queremos ouvir você!</h1>
+                                
+                                <div  class="mt-4">
+                                    <button class="btn btn-lg  btn-outline-light ">Seja um membro</button>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <h1>Lojas Online</h1>
+                                <div  class="mt-4">
+                                    <button class="btn btn-lg  btn-outline-light ">Hear store</button>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <h1 >Baixe nosso app</h1>
+                                <div  class="mt-4">
+                                    <button class="btn btn-lg  btn-outline-light ">Hear me</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#car" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#car" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div> <!--Col Carousel-->
+            </div>   <!--Row Carousel-->
+        </div> 
+    </section>   <!-- Section Carousel-->
+
+    <section class="section-cards "> <!-- Section Cards-->
+            <div class="container  ">
+                <div class="row pt-3"> <!-- Row Cards-->
+                    <div class="col-12  text-center"> 
+                        <h2>Qual o seu estilo?</h2>
+                    </div>
+
+                    <!-- Carrousel estilos inicio  obs : Imagem > sm, carrousel substitui -->
+
+                    
+                                <div class="col-sm-12 d-sm-flex d-md-none"> <!--Col Carousel Estilo-->
+                                    <div id="car2" class="carousel slide  align-items-center" data-ride="carousel">
+                
+                                        <!-- Indicators -->
+                                        <ul class="carousel-indicators">
+                                        <li data-target="#car2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#car2" data-slide-to="1"></li>
+                                        <li data-target="#car2" data-slide-to="2"></li>
+                                        <li data-target="#car2" data-slide-to="3"></li>
+                                        <li data-target="#car2" data-slide-to="4"></li>
+                                        <li data-target="#car2" data-slide-to="5"></li>
+                                        </ul>
+                                        
+                                        <!-- The slideshow -->
+                                        <div class="carousel-inner text-center">
+                                            <div class="carousel-item active " >
+                                                <div class="card m-3 " > <!-- Rock card-->
+                                                    <img class="card-img-top" src="imagens/30.jpg"  alt="Rock artist">
+                                                    <div class="card-body bg-dark">
+                                                        <h3 class="card-title">Rock</h5>
+                                                    </div>
+                
+                                                  </div>
+                                            </div>
+                
+                                            <div class="carousel-item">
+                                                <div class="card m-3" > <!-- Pop card-->
+                                                    <img class="card-img-top" src="imagens/avril.jpg" alt="Pop artist">
+                                                    <div class="card-body bg-dark">
+                                                        <h3 class="card-title">Pop</h5>
+                                                    </div>
+                
+                                                  </div>
+                                            </div>
+                
+                                            <div class="carousel-item">
+                                                <div class="card m-3 " > <!-- Eletronico card-->
+                                                    <img class="card-img-top" src="imagens/eletronic.jpg" alt="Eletronic artist">
+                                                    <div class="card-body bg-dark">
+                                                        <h3 class="card-title">Eletronico</h5>
+                                                    </div>
+                
+                                                  </div>
+                                            </div>
+                
+                                            <div class="carousel-item" >
+                                                <div class="card m-3" > <!-- Rap card-->
+                                                    <img class="card-img-top" src="imagens/eminem.jpg" alt="Rap artist">
+                                                    <div class="card-body bg-dark">
+                                                        <h3 class="card-title">Rap</h5>
+                                                    </div>
+                
+                                                  </div>
+                                            </div>
+                
+                                            <div class="carousel-item">
+                                                <div class="card m-3" > <!-- Sertanejo card-->
+                                                    <img class="card-img-top" src="imagens/simoneesimaria.jpg" alt="Sertanejo artist">
+                                                    <div class="card-body bg-dark">
+                                                        <h3 class="card-title">Sertanejo</h5>
+                                                    </div>
+                
+                                                  </div>
+                                            </div>
+                
+                                            <div class="carousel-item" >
+                                                <div class="card m-3" > <!-- Rock card-->
+                                                    <img class="card-img-top" src="imagens/outros.jpg" alt="Outros artist">
+                                                    <div class="card-body bg-dark">
+                                                        <h3 class="card-title">Outros</h5>
+                                                    </div>
+
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Left and right controls -->
+                                        <a class="carousel-control-prev" href="#car2" data-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#car2" data-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                        </a>
+                                    </div>
+                                </div> <!--Col Carousel Estilo-->
+                           
+                    
+                    <!-- Carrousel estilos final  obs : Imagem > sm, carrousel substitui -->
+
+                    <div class="d-none d-md-flex col-md-12   p-4 text-center  section2-container  flex-wrap justify-content-center"> <!-- Col sem Carrousel-->
+                            
+                        <div class="card  m-3  " style="width: 20rem;"> <!-- Rock card-->
+                            <img class="card-img-top" src="imagens/30.jpg" alt="Rock artist">
+                            <div class="card-body bg-dark">
+                                <h3 class="card-title">Rock</h5>
+                            </div>
+
+                        </div> <!-- Rock card-->
+
+                        <div class="card m-3  " style="width: 20rem;"> <!-- Pop card-->
+                            <img class="card-img-top " src="imagens/avril.jpg" alt="Pop artist">
+                            <div class="card-body bg-dark">
+                                <h3 class="card-title">Pop</h3>
+                            </div> 
+
+                        </div> <!-- Pop card-->
+
+                        <div class="card m-3" style="width: 20rem;"> <!-- Eletronico card-->
+                            <img class="card-img-top " src="imagens/eletronic.jpg" alt="Eletronic artist">
+                            <div class="card-body bg-dark">
+                                <h3 class="card-title">Eletronico</h3>
+                            </div>
+
+                        </div> <!-- Eletronico card-->
+
+                        <div class="card m-3" style="width: 20rem;"> <!-- Rap card-->
+                            <img class="card-img-top " src="imagens/rap.jpg" alt="Rap artist">
+                            <div class="card-body bg-dark">
+                                <h3 class="card-title">Rap</h3>
+                            </div>
+
+                        </div> <!-- Rap card-->
+
+                        <div class="card m-3" style="width: 20rem;"> <!-- Sertanejo card-->
+                            <img class="card-img-top " src="imagens/sertanejo.jpg" alt="Sertanejo artist">
+                            <div class="card-body bg-dark">
+                                <h3 class="card-title">Sertanejo</h3>
+                            </div>
+
+                        </div> <!-- Sertanejo card-->
+
+                        <div class="card m-3" style="width: 20rem;"> <!-- Outros card-->
+                            <img class="card-img-top " src="imagens/outros.jpg" alt="Outros artist">
+                            <div class="card-body bg-dark">
+                                <h3 class="card-title">Outros</h3>
+                            </div>
+
+                        </div> <!-- Outros card-->    
+                    </div> <!-- Col Cards-->
+                </div> <!-- Row Cards-->
+            </div>
+    </section> <!-- Section Cards-->
+
+    <section class="section-paraquem"> <!-- Section Paraquem-->
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 p-2 text-center">
+                    <h2>Para quem?</h2>
+                 
+                </div>
+                <div class="col-sm-4 p-2  text-center">
+                    <h3>Produtores</h3>
+                    <img class="rounded-circle "src ="imagens/produtor.jpg" style="width: 10rem;height: 10rem; opacity: 0.90;">
+                    <p > Encontre artistas em potencial</p>
+                </div>
+                <div class="col-sm-4 p-2 text-center">
+                    <h3>Musicos</h3>
+                    <img class="rounded-circle "src ="imagens/musico2.jpg" style="width: 10rem;height: 10rem; opacity: 0.90;">
+                    <p >Divulgue seu trabalho</p>
+
+                </div>
+                <div class="col-sm-4 p-2 text-center">
+                    <h3>Publico</h3>
+                    <img class="rounded-circle "src ="imagens/show.jpg" style="width: 10rem;height: 10rem; opacity: 0.90;">
+                    <p > Eventos do seu estilo, proximo a você</p>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Section Paraquem-->
+
+    <section class="section-itens "> <!--Section Itens-->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 p-3  text-center">
+                    <h2>Com o Hear Me você pode</h2>
+                </div>
+
+                 <!-- Carrousel itens inicio  obs : Imagem > sm, carrousel substitui -->
+
+                            <div class="col-sm-12 d-sm-flex d-md-none"> <!--Col Carousel Itens-->
+                                <div id="car3" class="carousel slide  align-items-center" data-ride="carousel">
+            
+                                    <!-- Indicators -->
+                                    <ul class="carousel-indicators">
+                                    <li data-target="#car3" data-slide-to="0" class="active"></li>
+                                    <li data-target="#car3" data-slide-to="1"></li>
+                                    <li data-target="#car3" data-slide-to="2"></li>
+                                    <li data-target="#car3" data-slide-to="3"></li>
+                                    </ul>
+                                    
+                                    <!-- The slideshow -->
+                                    <div class="carousel-inner text-center">
+                                        <div class="carousel-item active " >
+                                            <div class="card m-3 " > <!-- Evento card-->
+                                                <img class="card-img-top" src="imagens/evento.png"  alt="Evento ">
+                                                <div class="card-body bg-dark">
+                                                    <h3 class="card-title">Encontrar eventos</h5>
+                                                </div>
+            
+                                              </div>
+                                        </div>
+            
+                                        <div class="carousel-item">
+                                            <div class="card m-3" > <!-- Ensaio card-->
+                                                <img class="card-img-top" src="imagens/ensaios.png" alt="Ensaio ">
+                                                <div class="card-body bg-dark">
+                                                    <h3 class="card-title">Agendar ensaios</h5>
+                                                </div>
+            
+                                              </div>
+                                        </div>
+            
+                                        <div class="carousel-item">
+                                            <div class="card m-3 " > <!-- Divulgar card-->
+                                                <img class="card-img-top" src="imagens/divulgar.png" alt="Divulgar ">
+                                                <div class="card-body bg-dark">
+                                                    <h3 class="card-title">Divulgar seu trabalho</h5>
+                                                </div>
+            
+                                              </div>
+                                        </div>
+            
+                                        <div class="carousel-item" >
+                                            <div class="card m-3" > <!-- Band card-->
+                                                <img class="card-img-top" src="imagens/woman.png" alt="Membro ">
+                                                <div class="card-body bg-dark">
+                                                    <h3 class="card-title">Encontrar membros para banda</h5>
+                                                </div>
+    
+                                            </div>
+                                        </div>
+                       
+                                    </div>
+                                    
+                                    <!-- Left and right controls -->
+                                    <a class="carousel-control-prev" href="#car3" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#car3" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                    </a>
+                                </div>
+                            </div> <!--Col Carousel Itens-->
+                      
+                
+                <!-- Carrousel itens final  obs : Imagem > sm, carrousel substitui -->
+
+                <div class="d-none d-md-block  col-lg-4  p-3 text-center">
+                    <h3>Encontrar Eventos</h3>
+                    <img class=" "src ="imagens/evento.png" style="width: 100%; opacity: 0.90;">
+                    
+                    <p>Encontra eventos do seu estilo, proximo a você.</p>
+                </div>
+
+                <div class="d-none d-md-block col-lg-4  p-3 text-center">
+                    <h3>Agendar Ensaios</h3>
+                    <img class=" "src ="imagens/studio.png" style="width: 100%; opacity: 0.90;">
+                    <p>Localiza estudios, com agendamento online</p>
+                </div>
+                <div class="d-none d-md-block col-lg-4  p-3 text-center">
+                    <h3>Divulgar seu trabalho</h3>
+                    <img class=" "src ="imagens/divulgar.png" style="width: 100%; opacity: 0.90;">
+                    <p>Acompanha seus resultados de maneira simples.</p>
+                </div>
+
+                <div class="d-none d-md-block col-lg-4  p-3 text-center">
+                    <h3>Encontrar membros para sua banda.</h3>
+                    <img class=" "src ="imagens/band.png" style="width: 100%; opacity: 0.90;">
+                    <p>Encontra pessoas com seu estilo.</p>
+                </div> 
+            </div>
+        </div>
+    </section> <!--Section Itens-->
+
+    <section class="section-store"> <!-- Section store -->
+        <div class="container">
+            <div class="row ">
+                
+                <div class="col-sm-12 col-md-6 p-0 align-self-center  text-center">
+                    <h2>Hear Store</h2>
+                    <h3>Acesse e veja nossos artigos instrumentais e eletronicos</h3>
+                    <button class="btn btn-outline-light mt-4">Hear Store</button>    
+                </div>
+                
+                <div class="d-none d-md-flex col-md-6 p-2  align-self-center text-center">
+                    <img class=" "src ="imagens/ensaio.png" style="width: 100%; opacity: 0.90;">
+                </div>
+            </div>
+        </div>
+    </section> <!-- Section store-->
+
+    <footer > <!-- Section store -->
+        <div class="container  h-100">
+            <div class="row p-4   h-100 ">
+                
+                <div class="col-sm-12 col-md-2 m-4  ">
+                    <img  src="imagens/logo.png" style="width: 150px;">      
+                </div>
+                
+                <div class="col-sm-2 m-4 ">
+                    <h5>Empresa</h5> 
+                    <ul class="nav">    
+                        <li><a href="#" class="nav-link">Home</a></li>
+                        <li><a href="#" class="nav-link">Licensas</a></li>
+                        <li><a href="#" class="nav-link">Contratos</a></li>
+                        <li><a href="#" class="nav-link" >Informações</a></li>
+                    </ul>
+                </div>
+
+                 
+                <div class="d-none d-sm-block col-sm-2 m-4">
+                    <h5>Parceiros</h5>
+                    <ul class="nav">
+                        <li><a href="#" class="nav-link">Bandas</a></li>
+                        <li><a href="#" class="nav-link">Estudios</a></li>
+                        <li><a href="#" class="nav-link">Lojas</a></li>
+                        <li><a href="#" class="nav-link" >Empresas</a></li>
+                    </ul>   
+                </div>
+
+                <div class=" d-none d-sm-block col-sm-2 m-4">
+                    <h5>Links</h5>
+                    <ul class="nav">
+                        <li><a href="#" class="nav-link">Artistas</a></li>
+                        <li><a href="#" class="nav-link">Divulgação</a></li>
+                        <li><a href="#" class="nav-link">Store</a></li>
+                        <li><a href="#" class="nav-link" >Sobre</a></li>
+                    </ul>   
+                </div>
+
+                <div class=" align-self-end ml-auto">
+                    <span class="oi oi-musical-note   m-2 " title="icon name" aria-hidden="true"></span>
+                    <span class="oi oi-envelope-closed   " title="icon name" aria-hidden="true"></span>
+                </div>
+                    
+
+                
+            </div>
+        </div>
+    </footer> <!-- Section store-->
+
+    
+
+
+
+    <script src='main.js'></script>
+</body>
+</html>

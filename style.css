@@ -1,0 +1,186 @@
+body
+{   
+    background-image: url("imagens/crowd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 20px;
+    color: rgb(240, 233, 233); 
+    text-shadow: 2px 2px rgba(102, 100, 100, 0.459);
+}
+
+.btn 
+{
+    border-radius: 20px;
+    background-color: rgba(31, 31, 34, 0.726);
+    font-style: italic;
+}
+
+h2
+{
+    
+    font-family: "Jazz LET", fantasy;
+}
+p
+{
+    font-family: "URW Chancery L";
+}
+
+.navheader
+{
+    background-color: rgb(4,38,49,0.07);
+}
+.navheader ul a
+{
+    color:white;
+    font-style: italic;
+}
+.navheader .btn
+{
+    
+    border-radius: 3px;
+    background-color: rgba(31, 31, 34, 0.726);
+    font-style: italic;
+}
+.navheader ul a:hover
+{
+    color:rgb(67, 119, 150);
+    text-shadow: 0;
+    text-shadow: 0px 0px;
+}
+/*Section-carousel */
+
+
+.carousel-control-next, .carousel-control-prev /* distancia da seta do carrousel */
+{
+    width: 5%;
+}
+
+.section-carousel
+{
+    color:white;
+}
+
+
+#car 
+{
+   opacity: 0.95;
+   height: 500px;
+}
+/*Section-carousel */
+
+/* Section-Cards */
+.section-cards
+{
+    background-color: black;
+    opacity: 0.90;
+}
+/*Section Cards*/
+
+/*Section paraquem*/
+.section-paraquem
+{
+    background-color: rgba(50, 50, 53, 0.897);
+      
+}
+/*Section paraquem*/
+
+/*Section Itens*/
+.section-itens
+{
+    background-color: black;
+    opacity: 0.90;
+}
+/*Section Itens*/
+/*Section store*/
+.section-store
+{
+    background-color: rgba(50, 50, 53, 0.897);
+      
+}
+/*Section store*/
+
+/*Section Footer*/
+
+footer
+{
+    background-color: black;
+    opacity: 0.90;
+    color: white;
+ 
+}
+footer ul a
+{
+    color:white;
+    
+    
+}
+footer ul a:hover
+{
+    color:rgb(67, 119, 150);
+    text-shadow: 0;
+    text-shadow: 0px 0px;
+    
+}
+/*Section Footer*/
+
+
+
+
+
+/* Medias */
+
+@media(min-width: 1199.99px)
+{
+    h1
+    {
+        font-size: 4em;
+    }
+    .section-carousel p 
+    {
+        font-size: 2em;
+
+
+    }
+    .btn
+    {
+        font-size: 1.6em;
+        
+    }
+}
+@media(min-width: 576.97px) and (max-width: 1199.97px)
+{
+    h1
+    {
+        font-size: 3em;
+    }
+    .section-carousel p 
+    {
+        font-size: 1.5em;
+
+    }
+    .btn
+    {
+        font-size: 1.3em;
+        
+    }
+}
+@media(max-width: 576.95px) 
+{
+ 
+    .section-carousel p 
+    {
+        font-size: 1.5em;
+
+    }
+    .btn
+    {
+        font-size: 1.2em;
+        
+    }
+}
+
+
+
+    
+
